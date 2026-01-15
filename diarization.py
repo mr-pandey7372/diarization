@@ -3,9 +3,9 @@ import json
 
 pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization")
 
-audio_file = "test.wav"
-rttm_file = "test.rttm"
-json_file = "test.json"
+audio_file = "test3.wav"
+rttm_file = "test3.rttm"
+json_file = "test3.json"
 
 # Run diarization
 diarization = pipeline(audio_file)
