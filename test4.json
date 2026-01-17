@@ -1,0 +1,26 @@
+[
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1.18,
+        "end": 4.97,
+        "duration": 3.79
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 5.54,
+        "end": 10.43,
+        "duration": 4.89
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 10.99,
+        "end": 16.68,
+        "duration": 5.69
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 17.63,
+        "end": 19.43,
+        "duration": 1.8
+    }
+]
