@@ -129,3 +129,77 @@ DIARIZATION/
 
 
 
+[
+  {
+    "speaker": "SPEAKER_00",
+    "start": 0.57,
+    "end": 2.76,
+    "duration": 2.19
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 10.03,
+    "end": 25.36,
+    "duration": 15.33
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 25.46,
+    "end": 36.04,
+    "duration": 10.58
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 36.85,
+    "end": 96.17,
+    "duration": 59.32
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 96.24,
+    "end": 162.88,
+    "duration": 66.64
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 162.95,
+    "end": 163.64,
+    "duration": 0.70
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 163.78,
+    "end": 219.89,
+    "duration": 56.11
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 220.52,
+    "end": 223.73,
+    "duration": 3.21
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 224.12,
+    "end": 241.16,
+    "duration": 17.05
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 241.23,
+    "end": 250.89,
+    "duration": 9.66
+  },
+  {
+    "speaker": "SPEAKER_01",
+    "start": 251.21,
+    "end": 268.43,
+    "duration": 17.22
+  },
+  {
+    "speaker": "SPEAKER_00",
+    "start": 275.75,
+    "end": 287.60,
+    "duration": 11.85
+  }
+]
