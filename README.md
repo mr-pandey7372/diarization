@@ -129,20 +129,20 @@ DIARIZATION/
 
 ## SAMPLE OUTPUT
 
-[
-    {
-        "speaker": "SPEAKER_00",
-        "start": 0.57,
-        "end": 2.76,
-        "duration": 2.19
-    },
-    {
-        "speaker": "SPEAKER_01",
-        "start": 10.03,
-        "end": 25.36,
-        "duration": 15.33
-    },
-    {
+`[`
+    `{`
+        `"speaker": "SPEAKER_00",`
+        `"start": 0.57,`
+        `"end": 2.76,`
+        `"duration": 2.19`
+    `},`
+    `{`
+        `"speaker": "SPEAKER_01",`
+        `"start": 10.03,`
+        `"end": 25.36,`
+        `"duration": 15.33`
+    `},`
+    `{`
         "speaker": "SPEAKER_01",
         "start": 25.46,
         "end": 36.04,
