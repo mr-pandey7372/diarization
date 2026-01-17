@@ -1,38 +1,38 @@
-What is Speaker Diarization?
+# **What is Speaker Diarization?** 
 
 Speaker Diarization is the process of identifying who spoke and when in an audio recording.
 It segments an audio file into time intervals and assigns a speaker label to each segment.
 
 In simple terms, speaker diarization answers the question:
 
-“Who spoke when?”
+### **“Who spoke when?”**
 
 For example, in a conversation with three people, diarization will divide the audio like:
 
-Speaker 1 → 0.0s – 12.4s
+- Speaker 1 → 0.0s – 12.4s
 
-Speaker 2 → 12.4s – 25.1s
+- Speaker 2 → 12.4s – 25.1s
 
-Speaker 3 → 25.1s – 40.0s
+- Speaker 3 → 25.1s – 40.0s
 
 without knowing the actual names of the speakers.
 
 
-Why Speaker Diarization?
+## Why Speaker Diarization?
 
 Speaker diarization is useful in many real-world applications:
 
-🎙 Meeting recordings – identify different participants
+- 🎙 Meeting recordings – identify different participants
 
-📞 Call center analysis – separate agent and customer speech
+- 📞 Call center analysis – separate agent and customer speech
 
-🧠 Speech recognition pipelines – improve transcription accuracy
+- 🧠 Speech recognition pipelines – improve transcription accuracy
 
-📺 Interviews / podcasts – segment speakers automatically
+- 📺 Interviews / podcasts – segment speakers automatically
 
-⚖️ Forensics & investigations – analyze multi-speaker audio
+- ⚖️ Forensics & investigations – analyze multi-speaker audio
 
-🤖 AI voice assistants – handle multi-speaker conversations
+- 🤖 AI voice assistants – handle multi-speaker conversations
 
 It is often used before or along with transcription to get structured, speaker-aware results.
 
@@ -40,14 +40,14 @@ It is often used before or along with transcription to get structured, speaker-a
 
 
 
-Speaker Diarization
+## Speaker Diarization
 
 This project performs speaker diarization on WAV audio files using Python and generates RTTM and JSON outputs for each audio file.
 
 
 
 
-Project Structure
+**Project Structure**
 
 DIARIZATION/
 ├── .git/
@@ -71,55 +71,57 @@ DIARIZATION/
 
 
 
-Prerequisites
+### Prerequisites
 
-pyenv
+- pyenv
 
-Python 3.10.13
+- Python 3.10.13
 
-pip
+- pip
 
-Linux / WSL / macOS recommended
-
-
-
-Python Setup (pyenv)
-
-Set Python version globally:
-
-pyenv global 3.10.13
+- Linux / WSL / macOS recommended
 
 
-Verify Python version:
 
-python --version
+### Python Setup (pyenv)
 
-Virtual Environment Setup
+**Set Python version globally:**
 
-Create virtual environment:
-
-python -m venv .venv
+- pyenv global 3.10.13
 
 
-Activate virtual environment:
+**Verify Python version:**
 
-source .venv/bin/activate
+- python --version
 
 
-Verify Python version inside venv:
+## Virtual Environment Setup
 
-python --version
+**Create virtual environment:**
 
-Install Dependencies
-pip install -r requirements.txt
+- python -m venv .venv
 
-Run Speaker Diarization
-python diarization.py
 
-Output
+**Activate virtual environment:**
 
-For each .wav file, the script generates:
+- source .venv/bin/activate
 
-.rttm – speaker diarization segments
 
-.json – speaker labels with start and end timestamps
+**Verify Python version inside venv:**
+
+- python --version
+
+**Install Dependencies**
+
+- pip install -r requirements.txt
+
+**Run Speaker Diarization**
+- python diarization.py
+
+## Output
+
+**For each .wav file, the script generates:**
+
+- .rttm – speaker diarization segments
+
+- .json – speaker labels with start and end timestamps
