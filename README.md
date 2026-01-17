@@ -127,9 +127,10 @@ DIARIZATION/
 - .json – speaker labels with start and end timestamps
 
 
+## SAMPLE OUTPUT
 
-
-```[
+```
+[
   {
     "speaker": "SPEAKER_00",
     "start": 0.57,
@@ -202,7 +203,8 @@ DIARIZATION/
     "end": 287.60,
     "duration": 11.85
   }
-]```
+]
+```
 
 
 
